@@ -21,7 +21,7 @@ img{
     grid-gap: 5px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (min-width:480px)and (max-width:768px) {
     .box{
         flex-direction: column;
         height: auto;
